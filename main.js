@@ -44,9 +44,9 @@ const h4precio = document.querySelector(`.h4precio`);
  const renderPizzas = e => {
      e.preventDefault();
     if(pizzaSearch(pizzas) == undefined){
-      alert (`no existe la pizza seleccionada`);
-       return;
-   
+      h2pizza.textContent = `No hay Pizzas con ese numero, por favor ingrese un numero del 1 al 6`;
+      h4precio.textContent = ` `
+      return;
    }else {  h2pizza.textContent = `La pizza  ${pizzaSearch(pizzas).nombre} ` ;
     h4precio.textContent = `Tiene un precio de: $ ${pizzaSearch(pizzas).precio}`;
      number.value = " ";
