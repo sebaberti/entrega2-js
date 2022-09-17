@@ -50,14 +50,6 @@
   scale: 1.1;
 }
 
-.info {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  gap: 10px;
-}
-
 .container {
   background: grey;
   color: aliceblue;
@@ -107,10 +99,10 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 .carda h1 {
-  font-size: 30px;
+  font-size: 25px;
 }
 
-.asd {
+.imgs {
   width: 100%;
   height: 200px;
   border-radius: 10px;
